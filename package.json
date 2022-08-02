@@ -1,7 +1,7 @@
 {
   "name": "vuejs-datepicker3",
   "version": "1.6.2",
-  "description": "A simple Vue.js datepicker component. Supports disabling of dates, inline mode, translations",
+  "description": "A simple Vue.js datepicker component forked from `vuejs-datepicker` package. Supports disabling of dates, inline mode, translations",
   "keywords": [
     "vue",
     "datepicker",
@@ -15,13 +15,18 @@
     "src",
     "dist"
   ],
-  "author": "Asef Hosseini <asefhosseini00@gmail.com>",
+  "author": {
+    "name": "Asef Hosseini",
+    "email" :"asefhosseini00@gmail.com"
+  },
+  "homepage": "https://github.com/asef00/vuejs-datepicker#readme"
   "repository": {
     "type": "git",
     "url": "https://github.com/asef00/vuejs-datepicker"
   },
   "bugs": {
-    "url": "https://github.com/asef00/vuejs-datepicker/issues"
+    "url": "https://github.com/asef00/vuejs-datepicker/issues",
+    "email" : "asefhosseini00@gmail.com"
   },
   "private": false,
   "license": "MIT",
