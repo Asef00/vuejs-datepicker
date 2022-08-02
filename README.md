@@ -29,12 +29,12 @@ To view demo examples locally clone the repo and run `npm install && npm run ser
 ## Install
 
 ``` bash
-npm install vuejs-datepicker --save
+npm install vuejs-datepicker3 --save
 ```
 
 
 ``` javascript
-import Datepicker from 'vuejs-datepicker';
+import Datepicker from 'vuejs-datepicker3';
 
 export default {
   // ...
@@ -45,13 +45,19 @@ export default {
 }
 ```
 
+## Typescript
+If you are using typescript, then you should add this to the `global.d.ts` file:
+``` javascript
+declare module 'vuejs-datepicker3';
+```
+
 Or use directly from a CDN
 ``` html
 <div id="app">
   <vuejs-datepicker></vuejs-datepicker>
 </div>
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vuejs-datepicker"></script>
+<script src="https://unpkg.com/vuejs-datepicker3"></script>
 <script>
 const app = new Vue({
   el: '#app',
